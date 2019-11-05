@@ -93,3 +93,16 @@ def number_to_short_month_name(short_month)
   # end case statement
   end
 end
+
+def volume_of_cube(length)
+  return length**3
+end
+
+#def volume_of_sphere(radius)
+#  return (radius**3 * 1.33 * 3.14)
+#end
+
+
+def fahrenheit_to_celsius(far_temp)
+  return (far_temp -32) * (5/9)
+end
